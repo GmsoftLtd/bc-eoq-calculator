@@ -1,0 +1,12 @@
+# AL / Business Central
+.alpackages/
+.altestrunner/
+.snapshots/
+.vscode/
+*.app
+rad.json
+launch.json
+
+# OS / editor
+Thumbs.db
+.DS_Store
