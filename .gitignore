@@ -1,12 +1,8 @@
-# AL / Business Central
 .alpackages/
-.altestrunner/
 .snapshots/
-.vscode/
+.alcache/
 *.app
-rad.json
-launch.json
-
-# OS / editor
-Thumbs.db
-.DS_Store
+.vscode/.alcache/
+.vscode/launch.json
+.vscode/launch.json.local
+.vscode/rad.json

@@ -1,0 +1,29 @@
+{
+    "id": "9f3e7c2a-8b1d-4f5e-a6c0-d2e3b4f5a6b7",
+    "name": "BC EOQ Calculator",
+    "publisher": "GMSOFT Limited",
+    "version": "1.0.0.0",
+    "brief": "Free Economic Order Quantity calculator for Business Central. Computes Wilson EOQ from real Item Ledger Entries and writes to Planning fields.",
+    "description": "Open-source EOQ extension. Calculates Economic Order Quantity (Wilson formula) using actual posted demand and unit cost data, then writes the result to Reorder Quantity or Order Multiple so the Planning Worksheet uses it directly.",
+    "privacyStatement": "https://gmsoft.co.uk/privacy",
+    "EULA": "https://github.com/GmsoftLtd/bc-eoq-calculator/blob/main/LICENSE",
+    "help": "https://insidebusinesscentral.com/eoq-in-business-central-calculator/",
+    "url": "https://github.com/GmsoftLtd/bc-eoq-calculator",
+    "logo": "",
+    "dependencies": [],
+    "screenshots": [],
+    "platform": "27.0.0.0",
+    "application": "27.0.0.0",
+    "idRanges": [
+        {
+            "from": 50200,
+            "to": 50299
+        }
+    ],
+    "contextSensitiveHelpUrl": "https://insidebusinesscentral.com/eoq-in-business-central-calculator/",
+    "showMyCode": true,
+    "runtime": "14.0",
+    "features": [
+        "NoImplicitWith"
+    ]
+}
