@@ -21,7 +21,11 @@
         }
     ],
     "contextSensitiveHelpUrl": "https://insidebusinesscentral.com/eoq-in-business-central-calculator/",
-    "showMyCode": true,
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
     "runtime": "14.0",
     "features": [
         "NoImplicitWith"

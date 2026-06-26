@@ -1,0 +1,43 @@
+{
+  "id": "c2a2b3c4-d5e6-4f70-8a91-0b1c2d3e4f51",
+  "name": "BC EOQ Calculator Tests",
+  "publisher": "GMSOFT Limited",
+  "version": "1.0.0.0",
+  "brief": "Tests for the BC EOQ Calculator",
+  "description": "Automated tests for the BC EOQ Calculator extension.",
+  "platform": "27.0.0.0",
+  "application": "27.0.0.0",
+  "dependencies": [
+    {
+      "id": "9f3e7c2a-8b1d-4f5e-a6c0-d2e3b4f5a6b7",
+      "name": "BC EOQ Calculator",
+      "publisher": "GMSOFT Limited",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "name": "Library Assert",
+      "publisher": "Microsoft",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "name": "Tests-TestLibraries",
+      "publisher": "Microsoft",
+      "version": "1.0.0.0"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 59200,
+      "to": 59299
+    }
+  ],
+  "target": "Cloud",
+  "features": [ "NoImplicitWith" ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  }
+}
