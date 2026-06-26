@@ -1,6 +1,7 @@
 .alpackages/
 .snapshots/
 .alcache/
+.altestrunner/
 *.app
 .vscode/.alcache/
 .vscode/launch.json
