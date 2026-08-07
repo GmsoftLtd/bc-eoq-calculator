@@ -1,8 +1,13 @@
 # BC EOQ Calculator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Business Central](https://img.shields.io/badge/BC-v27+-blue.svg)](https://learn.microsoft.com/en-us/dynamics365/business-central/)
+
 A free, open-source Business Central extension that computes the Economic Order Quantity (Wilson formula) from real Item Ledger Entries and writes the result into the field your Planning Worksheet already reads.
 
 MIT licensed. Runtime 14.0 (BC v27+).
+
+> ⭐ If this saves you time, please **star the repo** — it helps other Business Central folks find it.
 
 ## What it does
 
@@ -130,13 +135,14 @@ The Wilson formula assumes steady demand and a constant unit cost. It is not app
 
 ## Companion projects
 
-This is the second extension in a planned replenishment trio:
+Part of a set of free, open-source BC tools by GMSOFT:
 
-- [bc-safety-stock](https://github.com/GmsoftLtd/bc-safety-stock) — Z-score safety stock calculator
-- **bc-eoq-calculator** (you are here) — Wilson EOQ calculator
-- bc-reorder-point (planned) — combines Safety Stock and lead-time demand to compute the Reorder Point
+- [bc-safety-stock](https://github.com/GmsoftLtd/bc-safety-stock) — Z-score safety stock calculator (how much buffer to hold)
+- **bc-eoq-calculator** (you are here) — Wilson EOQ calculator (how much to order)
+- [bc-reorder-point](https://github.com/GmsoftLtd/bc-reorder-point) — reorder point calculator (when to order)
+- [bc-ValueEntryGL-Audit](https://github.com/GmsoftLtd/bc-ValueEntryGL-Audit) — inventory-to-G/L audit
 
-Together they cover the full deterministic-replenishment math for BC.
+Together the first three cover the full deterministic-replenishment math for BC.
 
 ## Contributing
 
